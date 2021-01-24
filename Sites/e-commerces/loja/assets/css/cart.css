@@ -1,0 +1,300 @@
+.topoHeader {
+    padding: 40px 0;
+    background-color: #1f1f1e;
+}
+.layout{
+    background-size: cover;
+    height: 121%;
+}
+.Cart .lixeira {
+    text-decoration: none;
+    font-size: 0;
+    color: none;
+    padding: 0;
+    border-radius: 0;
+    background-color: none;
+}
+.Cart form {
+    margin-top:20px ;
+    vertical-align: middle;
+    width: 400px;
+    height: 50px;
+    border-radius:8px ;
+}
+.Cart input[type=number] {
+    width: 200px;
+    outline: 0;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius:8px ;
+    color:white
+}
+.Cart input[type=submit]:hover{
+  background-color: rgba(52, 171, 226, 0.918);
+
+}
+.Cart input[type=submit] {
+    width: 150px;
+    height: 40px;
+    outline: 0;
+    border: none;
+    color: white;
+  background-color: rgba(5, 105, 151, 0.979);
+  font-size: 20px;
+  border-radius: 10px;
+  }
+
+.finalizar{
+    float: right;
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 800px;
+    
+    height: 50px;
+    border-radius: 8px;
+}
+.finalizar input[type=submit]:hover {
+    background-color: rgba(68, 138, 28, 0.918);
+
+}
+
+.finalizar input[type=submit] {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(8, 116, 22, 0.979);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.finalizar select{
+    width: 150px;
+    float: left;
+      height: 40px;
+      outline: 0;
+      border: none;
+      color:black;
+      font-size: 20px;
+      border-radius: 10px;
+    
+}
+
+@media screen and (max-height:705px){
+
+.layout {
+    background-size: cover;
+    height: 153%;
+}
+}
+
+
+@media screen and (max-width:920px){
+.Cart td {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ccc;
+}
+.Cart input[type=submit] {
+    width: 123px;
+    height: 38px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(5, 105, 151, 0.979);
+    font-size: 13px;
+    border-radius: 10px;
+}
+.finalizar input[type=submit] {
+    width: 123px;
+    height: 40px;
+    margin-left: 20px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(8, 116, 22, 0.979);
+    font-size: 13px;
+    border-radius: 10px;
+}
+.Cart td a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px 14px;
+    border-radius: 39px;
+    background-color: rgba(255, 255, 255, 0.383);
+}
+
+}
+@media screen and (max-width:820px){
+.Cart input[type=number] {
+    width: 182px;
+    outline: 0;
+    font-size: 13px;
+    height: 38px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 8px;
+    color: white;
+}
+.finalizar input[type=submit] {
+    width: 123px;
+    height: 40px;
+    margin-left: 10px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(8, 116, 22, 0.979);
+    font-size: 13px;
+    border-radius: 10px;
+}
+.Cart input[type=number] {
+    width: 147px;
+    outline: 0;
+    font-size: 13px;
+    height: 38px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.finalizar select {
+    width: 120px;
+    float: left;
+    height: 38px;
+    outline: 0;
+    border: none;
+    color: black;
+    font-size: 13px;
+    border-radius: 10px;
+}
+}
+@media screen and (max-width:755px){
+.subtotal th {
+    color: white;
+    font-size: 18px;
+}
+
+
+.Cart td a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0px 8px;
+    border-radius: 39px;
+    background-color: rgba(255, 255, 255, 0.383);
+}
+.Cart table i {
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.514);
+}
+.Cart input[type=number] {
+    width: 130px;
+    outline: 0;
+    font-size: 13px;
+    height: 38px;
+    padding-left: 16px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 8px;
+    color: white;
+}
+.Cart input[type=submit] {
+    width: 89px;
+    height: 38px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(5, 105, 151, 0.979);
+    font-size: 13px;
+    border-radius: 10px;
+}
+.finalizar input[type=submit] {
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(8, 116, 22, 0.979);
+    font-size: 10px;
+    border-radius: 10px;
+}
+.finalizar select {
+    width: 101px;
+    float: left;
+    height: 38px;
+    outline: 0;
+    border: none;
+    color: black;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.Cart form {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 223px;
+    height: 50px;
+    border-radius: 8px;
+}
+}
+
+@media screen and (max-width:590px){
+.Cart td {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #ccc;
+}
+
+.Cart table img {
+    border-radius: 7px;
+    width: 66px;
+    height: 75px;
+}
+.Cart th {
+    color: black;
+    font-size: 17px;
+}
+
+.subtotal th {
+    color: white;
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width:384px){
+.finalizar select {
+    width: 101px;
+    float: left;
+    height: 38px;
+    margin-left: -130px;
+    outline: 0;
+    border: none;
+    color: black;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.finalizar input[type=submit] {
+    width: 100px;
+    height: 40px;
+    margin-left: 120px;
+    outline: 0;
+    border: none;
+    color: white;
+    background-color: rgba(8, 116, 22, 0.979);
+    font-size: 10px;
+    border-radius: 10px;
+}
+}

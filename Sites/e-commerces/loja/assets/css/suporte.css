@@ -1,0 +1,150 @@
+.Modalname {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top:5;
+    color: rgb(20, 17, 17);
+}
+
+.ModalName2 {
+    margin-left: 150px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(20, 17, 17);
+}
+
+
+.cent {
+    padding-top: 13%;
+    margin: 0 35%;
+}
+
+.cent input[type=text] {
+    width: 450px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: 0;
+    border: 2px solid rgba(52, 159, 231, 0.589);
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+
+}
+
+.cent input[type=submit] {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: rgba(63, 61, 173, 0.959);
+    outline: 0;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+
+}
+
+textarea {
+    margin-top: 10px;
+    width: 450px;
+    border: 2px solid rgba(52, 159, 231, 0.589);
+    height: 350px;
+    outline: 0;
+    resize: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+textarea:hover {
+    border: 2px solid rgba(42, 75, 221, 0.589);
+}
+
+input[type=text]:hover {
+    border: 2px solid rgba(42, 75, 221, 0.589);
+}
+
+input[type=submit]:hover {
+    background-color: rgba(95, 94, 179, 0.959);
+}
+
+.modal {
+
+    width: 30%;
+    height: 80%;
+    margin: 80px auto 0 auto;
+    border: 2px solid rgba(52, 159, 231, 0.589);
+    background-color: rgb(255, 255, 255);
+    border-radius: 29px;
+}
+@media screen and (max-width:1470px){
+   
+    .ModalName2 {
+        margin-left: 150px;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        color: rgb(20, 17, 17);
+    }
+
+
+}
+
+@media screen and (max-width:1140px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 300px;
+    }
+
+
+}
+@media screen and (max-width:1000px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 250px;
+    }
+
+
+}
+@media screen and (max-width:870px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 150px;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 100px;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 50px;
+    }
+
+
+}
+
+@media screen and (max-width:540px) {
+
+    .cent {
+        padding-top: 13%;
+        margin: 0 20px;
+    }
+
+
+}

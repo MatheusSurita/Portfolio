@@ -1,0 +1,1339 @@
+footer {
+padding: 20px 2%;
+background: #1f1f1e;
+
+}
+
+.infoempresa h1 {
+text-align: center;
+margin-bottom: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.navegacao h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+
+.infoempresa p {
+color: grey;
+font-size: 20px;
+font-weight: 300;
+}
+
+
+
+.infoempresa {
+margin-left: 200px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+
+
+
+.navegacao li a:hover {
+color: gray;
+
+}
+
+.navegacao li a {
+text-align: center;
+text-decoration: none;
+color: #ccc;
+
+}
+
+
+.navegacao li {
+margin-bottom: 10px;
+font-size: 25px;
+font-weight: 300;
+}
+
+.infoPo li a:hover {
+color: grey;
+
+}
+
+.infoPo li a {
+text-align: center;
+text-decoration: none;
+color: #ccc;
+
+}
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 25px;
+font-weight: 300;
+}
+
+.contato li a:hover {
+color: gray;
+
+}
+
+
+.contato li a {
+text-align: center;
+text-decoration: none;
+color: #ccc;
+
+}
+
+
+.contato li {
+margin-bottom: 10px;
+font-size: 25px;
+font-weight: 300;
+}
+
+
+.navegacao ul {
+list-style-type: none;
+
+}
+
+.infoPo ul {
+list-style-type: none;
+
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.contato ul {
+list-style-type: none;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.footer2 {
+background: #44443f;
+height: 300px;
+
+}
+.footer3 {
+background: #44443f;
+height: 200px;
+
+}
+
+footer p {
+color: white;
+text-align: center;
+font-weight: 400;
+font-size: 16px;
+}
+.pagamento{
+float: left;
+margin-left: 200px;
+}
+.pag{
+float: left;
+}
+
+.pag img:nth-of-type(1){
+margin-left: 0;
+}
+.pag1 {
+margin-left: 900px;
+float: right;
+}
+.pag1 img {
+width: 250px;
+height: 100px;
+background-position: center;
+border: 0;
+}
+.pag img {
+width: 60px;
+height: 30px;
+background-position: center;
+border: 0;
+border-radius: 6px;
+margin-left: 10px;
+}
+
+.boleto{
+margin-top:20px;
+width: 300px;
+height: 60px;
+border-radius: 8px;
+background-color: white;
+}
+
+.boleto img{
+width: 120px;
+margin-top:10px; 
+display: inline-block;
+height: 40px;
+padding-left: 30px;
+margin-bottom:5px;
+
+}
+@media screen and (max-width: 1884px) {
+.infoempresa {
+margin-left:100px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.pagamento {
+float: left;
+margin-left: 100px;
+}
+
+
+.pag1 {
+margin-left: 900px;
+float: right;
+}
+}
+@media screen and (max-width: 1778px) {
+.infoempresa {
+margin-left: 150px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 150px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 150px;
+}
+
+.pagamento {
+float: left;
+margin-left: 150px;
+}
+
+
+.pag1 {
+margin-left: 750px;
+float: right;
+}
+
+}
+@media screen and (max-width: 1643px) {
+.infoempresa {
+margin-left: 120px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.pagamento {
+float: left;
+margin-left: 120px;
+}
+
+
+.pag1 {
+margin-left: 700px;
+float: right;
+}
+
+}
+
+
+@media screen and (max-width: 1550px) {
+.infoempresa {
+margin-left: 100px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 110px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 120px;
+}
+
+.pagamento {
+float: left;
+margin-left: 110px;
+}
+
+
+
+.pag1 {
+margin-left: 600px;
+float: right;
+}
+
+}
+@media screen and (max-width: 1518px) {
+.infoempresa {
+margin-left: 100px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.pagamento {
+float: left;
+margin-left: 100px;
+}
+
+
+
+.pag1 {
+margin-left: 600px;
+float: right;
+}
+}
+@media screen and (max-width: 1466px) {
+.infoempresa {
+margin-left: 90px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 90px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 90px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 90px;
+}
+
+.pagamento {
+float: left;
+margin-left: 90px;
+}
+
+
+
+.pag1 {
+margin-left: 600px;
+float: right;
+}
+}
+@media screen and (max-width: 1424px) {
+.infoempresa {
+margin-left: 80px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.pagamento {
+float: left;
+margin-left: 80px;
+}
+
+
+
+.pag1 {
+margin-left: 550px;
+float: right;
+}
+}
+
+@media screen and (max-width: 1384px) {
+.infoempresa {
+margin-left: 40px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+.contato li {
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 300;
+}
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 300;
+}
+
+.navegacao li {
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 300;
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.pagamento {
+float: left;
+margin-left: 40px;
+}
+
+
+
+.pag1 {
+margin-left: 550px;
+float: right;
+}
+}
+
+
+@media screen and (max-width: 1261px) {
+.infoempresa {
+margin-left: 40px;
+width: 300px;
+user-select: none;
+float: left;
+
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+
+
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 30px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.pagamento {
+float: left;
+margin-left: 40px;
+}
+
+
+
+.pag1 {
+margin-left: 450px;
+float: right;
+}
+}
+
+
+@media screen and (max-width: 1158px) {
+.infoempresa {
+margin-left: 40px;
+width: 250px;
+user-select: none;
+float: left;
+
+
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 80px;
+}
+
+.pagamento {
+float: left;
+margin-left: 40px;
+}
+
+
+
+.pag1 {
+margin-left: 400px;
+float: right;
+}
+}
+@media screen and (max-width: 1105px) {
+
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.pagamento {
+float: left;
+margin-left: 40px;
+}
+
+
+
+.pag1 {
+margin-left: 250px;
+float: right;
+}
+}
+@media screen and (max-width: 1010px) {
+
+.navegacao li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa h1 {
+text-align: center;
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.navegacao h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+.pagamento {
+float: left;
+margin-left: 60px;
+}
+
+
+
+.pag1 {
+margin-left: 150px;
+float: right;
+}
+}
+@media screen and (max-width: 950px) {
+
+
+.navegacao li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+display: none;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.pag img {
+width: 40px;
+height: 20px;
+background-position: center;
+border: 0;
+border-radius: 6px;
+margin-left: 10px;
+}
+
+.boleto {
+margin-top: 20px;
+width: 200px;
+height: 60px;
+border-radius: 8px;
+background-color: white;
+}
+
+.boleto img {
+width: 80px;
+margin-top: 10px;
+display: inline-block;
+height: 40px;
+padding-left: 10px;
+margin-bottom: 5px;}
+
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 100px;
+}
+
+.pagamento {
+float: left;
+margin-left: 50px;
+}
+
+
+
+.pag1 {
+margin-left: 200px;
+float: right;
+}
+}
+@media screen and (max-width: 874px) {
+
+
+.infoempresa h1 {
+text-align: center;
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+display: none;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+.pag1 img {
+width: 250px;
+height: 80px;
+background-position: center;
+border: 0;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 60px;
+}
+
+.pagamento {
+float: left;
+margin-left: 50px;
+}
+
+
+
+.pag1 {
+margin-left: 200px;
+float: right;
+}
+}
+@media screen and (max-width: 804px) {
+
+
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+display: none;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.pag1 img {
+width: 250px;
+height: 80px;
+background-position: center;
+border: 0;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.pagamento {
+float: left;
+margin-left: 50px;
+}
+
+
+
+.pag1 {
+margin-left: 150px;
+float: right;
+}
+}
+
+@media screen and (max-width: 750px){
+
+
+
+
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+display: none;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 20px;
+}
+
+.pag1 img {
+width: 250px;
+height: 80px;
+background-position: center;
+border: 0;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 20px;
+}
+
+.pagamento {
+float: left;
+margin-left: 40px;
+}
+
+.infoempresa {
+margin-left: 20px;
+width: 250px;
+user-select: none;
+float: left;
+}
+
+.pag1 {
+margin-left: 100px;
+float: right;
+}
+
+
+}
+@media screen and (max-width: 686px) {
+
+
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 12px;
+font-weight: 300;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.navegacao {
+display: none;
+}
+
+.contato {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.pag1 img {
+width: 250px;
+height: 80px;
+display: inline-block;
+background-position: center;
+border: 0;
+}
+
+.infoPo {
+user-select: none;
+float: left;
+margin-left: 40px;
+}
+
+.pagamento {
+float: left;
+margin-left: 20px;
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 10px;
+font-weight: 300;
+}
+.infoempresa {
+margin-left: 10px;
+width: 250px;
+user-select: none;
+float: left;
+}
+
+.pag1 {
+margin-left: 50px;
+float: right;
+}
+}
+@media screen and (max-width: 630px) {
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+
+
+
+
+.contato {
+margin-top: 10px;
+user-select: none;
+float: left;
+margin-left: 200px;
+}
+
+.pag1 img {
+width: 250px;
+height: 80px;
+display: inline-block;
+background-position: center;
+border: 0;
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 15px;
+font-weight: 300;
+}
+.infoPo {
+margin-top: 10px;
+user-select: none;
+float: left;
+margin-left: 5px;
+}
+
+.pagamento {
+
+float: left;
+margin-left: 5px;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+.infoempresa {
+margin-left: -10px;
+width: auto;
+user-select: none;
+float: left;
+}
+.pag {
+    float: left;
+}
+.pag1 {
+margin-left: 5px;
+float: right;
+}
+}
+@media screen and (max-width: 577px) {
+
+.infoPo h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pagamento h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+
+.contato h1 {
+margin-bottom: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.infoPo li {
+margin-bottom: 10px;
+font-size: 10px;
+font-weight: 300;
+}
+
+.pag img {
+width: 30px;
+height: 20px;
+background-position: center;
+border: 0;
+border-radius: 6px;
+margin-left: 10px;
+}
+
+.boleto {
+display: none;
+}
+
+.boleto img {
+display: none;}
+
+
+.contato {
+margin-top: 10px;
+user-select: none;
+float: left;
+margin-left: 170px;
+}
+
+.pag1 img {
+width: 180px;
+height: 80px;
+display: inline-block;
+background-position: center;
+border: 0;
+}
+
+.contato li {
+margin-bottom: 10px;
+font-size: 10px;
+font-weight: 300;
+}
+
+.infoPo {
+margin-top: 10px;
+user-select: none;
+float: left;
+margin-left: 5px;
+}
+
+.pagamento {
+float: left;
+margin-left: 5px;
+}
+
+.infoempresa p {
+color: grey;
+font-size: 15px;
+font-weight: 300;
+}
+
+.infoempresa {
+margin-left: -10px;
+width: auto;
+user-select: none;
+float: left;
+}
+
+.pag1 {
+margin-bottom:10px;
+margin-left: 20px;
+float: right;
+}
+
+
+
+}

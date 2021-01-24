@@ -1,0 +1,19 @@
+.filtermaster {
+    float: left;
+   padding-top: 210px;
+}
+.lista-items {
+    width: 100%;
+    padding-top:50px ;
+    padding-left: 500px;
+}
+.search {
+    user-select: none;
+    float: left;
+    padding-top: 10px ;
+    padding-left: 20px;
+
+}
+.search span {
+color: white;
+}

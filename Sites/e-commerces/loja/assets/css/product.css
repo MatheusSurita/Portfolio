@@ -1,0 +1,1263 @@
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 53%;
+}
+
+/*Products*/
+
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Body {
+    max-height: 800px;
+    height: 100%;
+}
+
+.imageP1 {
+    width: 40%;
+    float: left;
+}
+
+
+.imageP1 img {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+}
+.images img:hover {
+    padding: 0px;
+    box-shadow: -1px 1px 25px 9px rgba(0, 0, 0, 0.904);
+    border: white 2px solid;
+    border-radius: 8px;
+}
+.images{
+   width: 40%;
+   margin-top:10px;
+}
+.images img{
+    width: 25%;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-align: center;
+    float: left;
+   height: 120px;
+}
+
+.infoP {
+
+    user-select: none;
+    width: 60%;
+    padding: 0 40px;
+    float: right;
+}
+
+.infoP h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.infoP p {
+    color: rgb(148, 148, 148);
+    margin-top: 10px;
+    display: inline-block;
+    margin-left:10px ;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.infoP h1 {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.infoP select {
+    box-sizing: border-box;
+    appearance: none;
+    padding: 12px;
+    border: 0;
+    background: none;
+    outline: 0;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+display: inline-block;
+}
+
+
+.infoP input[type=submit]:hover {
+    background-color: rgb(14, 136, 207);
+}
+.infoP input[type=text] {
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    float: flex;
+    font-weight: bold;
+    text-align:center;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
+    color: #1f1f1e;
+    outline: 0;
+    border: 0;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.infoP input[type=submit] {
+    float: left;
+    background-color: rgb(36, 117, 190);
+    color: white;
+    margin-top: 8px;
+    width: 189px;
+    height: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Descricao {
+    user-select: none;
+    text-align: center;
+    float: left;
+}
+
+.Descricao h5 {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.Descricao p {
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+} 
+
+.Marca{
+    user-select: none;
+    padding-top:10px ;
+}
+
+.Marca h2{
+    color: black;
+    font-size:25px;
+    font-weight: bolder;
+}
+.Marca span {
+    color: #1f1f1e;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button{
+    width: 25px;
+    font-weight: bold;
+    color: #1f1f1e;
+    padding: 5px 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.383);
+    border: 0;
+    border-radius: 20px;
+    height: 15;
+    font-size: 20px;
+}
+
+
+/**/
+@media screen and (max-height: 826px){
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+}
+@media screen and (max-width:1900px){
+
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+@media screen and (max-height:840px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 240%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+}
+
+@media screen and (max-width:1800px){
+
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+@media screen and (max-height:840px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 240%;
+}
+
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 56%;
+}
+}
+
+@media screen and (max-width:1728px){
+    @media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.topoHeader {
+    padding: 33px 0;
+}
+.layout {
+    background-size: cover;
+    height: 220%;
+}
+@media screen and (max-height:900px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60%;
+}
+
+}
+}
+
+@media screen and (max-height: 625px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 57%;
+}
+.layout {
+    background-size: cover;
+    height: 300%;
+}
+}
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 62%;
+}
+
+}
+@media screen and (max-width:1581px){
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 66%;
+}
+}
+
+@media screen and (max-width:1510px){
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 72%;
+}
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 69%;
+}
+
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:900px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+}
+
+@media screen and (max-width:1380px){
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80%;
+}
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 77%;
+}
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 101%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 73%;
+}
+
+}
+}
+
+@media screen and (max-width:1300px){
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 77%;
+}
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 101%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+}
+
+}
+@media screen and (max-width:1230px){
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 86%;
+}
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+ @media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.layout {
+    background-size: cover;
+    height: 228%;
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 82%;
+}
+
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 101%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+}
+}
+
+
+@media screen and (max-width:1191px){
+
+    .chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 96%;
+}
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-height:937px){
+    .Produto{
+    position: absolute;
+    width: 100%;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+}
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 85%;
+}
+
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 101%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.Descricao p {
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+}
+
+
+}
+}
+
+@media screen and (max-width:1140px){
+  .Produto{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:937px){
+    .Produto{
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-height: 937px){
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 888px){
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 830px){
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 740px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 79%;
+}
+}
+@media screen and (max-height: 720px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 73%;
+}
+.layout {
+    background-size: cover;
+    height: 290%;
+}
+}
+
+
+.topoHeader {
+    padding: 33px 0;
+}
+.Pesquisar input[type=text] {
+    width: 225px;
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 7px;
+    outline: 0;
+    padding: 0 10px 0 10px;
+    border: 1px solid #cccccc;
+}
+
+}
+}
+
+@media screen and (max-width:1105px){
+
+.imageP1 img {
+    width: 100%;
+    max-width: 500px;
+    height: 340px;
+}
+
+.layout {
+    background-size: cover;
+    height: 238%;
+}
+.images img {
+    width: 25%;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-align: center;
+    float: left;
+    height: 93px;
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 78%;
+}
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 105%;
+}
+
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (max-height:768px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+}
+
+@media screen and (max-width:1005px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 120%;
+}
+.infoP select {
+    display: none;
+}
+.infoP input[type=submit] {
+    float: left;
+    background-color: rgb(36, 117, 190);
+    color: white;
+    margin-top: 8px;
+    width: 159px;
+    height:40px;
+    border-radius: 40px;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 13px;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-height:854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-height:815px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+
+}
+@media screen and (max-width: 1005px){
+@media screen and (max-height: 854px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 145%;
+}
+@media screen and (max-height:780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 105%;
+}
+}
+}
+@media screen and (max-width: 730px){
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 150%;
+}
+
+.images img {
+    width: 25%;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-align: center;
+    float: left;
+    height: 70px;
+}
+
+.imageP1 img {
+    width: 100%;
+    max-width: 500px;
+    height: 243px;
+}
+@media screen and (max-height: 854px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 810px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 780px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (max-height: 769px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-height: 730px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 129%;
+}
+}
+@media screen and (max-height: 650px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.Descricao p {
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 109%;
+}
+}
+@media screen and (max-height: 600px){
+.Produto{
+    position: absolute;
+    width: 100%;
+    top: 104%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 120%;
+}
+}
+}
+
+@media screen and (max-width:601px){
+
+
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 184%;
+}
+.Descricao p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+}
+.box2 .imagess img {
+    width: 90%;
+    border-radius: 3px;
+    height: 216px;
+}
+.box {
+    width: 245px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 6px 8px 6px 8px;
+    text-align: center;
+    border-radius: 29px;
+}
+.Marca span {
+    color: #1f1f1e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.infoP h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+}
+
+
+@media screen and (max-height:625px){
+   .Produto {
+    position: absolute;
+    width: 100%;
+    top: 118%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.layout {
+    background-size: cover;
+    height: 300%;
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75%;
+}
+.imageP1 img {
+    width: 100%;
+    max-width: 490px;
+    height: 345px;
+}
+.images img {
+    width: 25%;
+    cursor: pointer;
+    padding: 5px 5px;
+    text-align: center;
+    float: left;
+    height: 87px;
+}
+@media screen and (max-width:1150px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 105%;
+}
+
+}
+@media screen and (max-width:1140px){
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+}
+@media screen and (max-width:870px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 142%;
+}
+}
+}
+
+@media screen and (max-width:950px){
+
+.Headerlogo .logo img {
+    width: 293px;
+    height: 219px;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Pesquisar input[type=text] {
+    width: 180px;
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 7px;
+    outline: 0;
+    padding: 0 10px 0 10px;
+    border: 1px solid #cccccc;
+}
+
+}
+@media screen and (max-height: 600px){
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 78%;
+}
+.Produto {
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+@media screen and (max-height: 1240px){
+    .Produto {
+    position: absolute;
+    width: 100%;
+    top: 143%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.chamada-escolher {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 73%;
+}
+}
+}
+@media screen and (max-width:690px){
+    .Pesquisar input[type=text] {
+        width: 140px;
+        float: left;
+        font-size: 20px;
+        height: 30px;
+        border-radius: 7px;
+        outline: 0;
+        padding: 0 10px 0 10px;
+        border: 1px solid #cccccc;
+    }
+}
